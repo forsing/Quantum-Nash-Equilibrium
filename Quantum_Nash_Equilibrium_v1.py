@@ -78,7 +78,7 @@ from threadpoolctl import threadpool_limits
 random.seed(39)
 np.random.seed(39)
 
-DATA_DIR = Path("/Users/4c/Desktop/GHQ/data")
+DATA_DIR = Path("/data")
 
 STRATEGIES = 16
 WINDOWS = (1, 3)
@@ -1684,11 +1684,11 @@ Isti maksimum je zadrzan. Razlicitost kombinacija nije nametnuta.
 
 
 Konacni NEXT rezultati
-all: 6 22 25 26 32 34 39
+all: 6 x 25 y 32 z 39
 Verovatnoca prema modelu: 3.341769518786e-04
-loto: 11 23 25 26 32 34 39
+loto: 11 x 25 y 32 z 39
 Verovatnoca prema modelu: 4.563104122831e-04
-loto_plus: 11 23 25 26 32 34 39
+loto_plus: 11 x 25 y 32 z 39
 Verovatnoca prema modelu: 5.276418848471e-04
 """
 
